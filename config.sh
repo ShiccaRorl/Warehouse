@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rm *
+#rm *
 
 git pull
 
@@ -10,6 +10,8 @@ pip install -U pip
 
 pip install pysimplegui
 pkg install python-tkinter
+pip install remi
+pip install pysimpleguiweb
 
 pip install configparser
 pip install sqlalchemy
@@ -23,7 +25,7 @@ pip install -U pyperclip
 
 python warehouse.py
 
-pip install opencv-python
-pip install opencv-python
+#pip install opencv-python
+#pip install opencv-python
 
 python camera.py
